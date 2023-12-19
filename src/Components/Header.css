@@ -1,0 +1,18 @@
+.navLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+@media (width < 600px) {
+    .navLink {
+        color: #000;
+        padding: 0;
+        margin-left: 50px;
+        letter-spacing: 1px;
+    }
+}

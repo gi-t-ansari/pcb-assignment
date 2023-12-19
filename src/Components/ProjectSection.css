@@ -1,0 +1,41 @@
+.projectSectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.cardsContainer {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+@media (width < 1025px) {
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (width < 769px) {
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+@media (width < 426px) {
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
